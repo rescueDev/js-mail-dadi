@@ -1,0 +1,65 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+#contenitore {
+    width: 100%;
+    min-height: 500px;
+    justify-content: center;
+    /* debug */
+    background-color: salmon;
+}
+
+#form-container {
+    width: 80%;
+    min-height: 100px;
+    margin: auto;
+    /* debug */
+    background-color: pink;
+    border:1px solid black;
+}
+
+#titolo {
+    text-align: center;
+ }
+
+#myForm { 
+    width: 30%;
+    min-height: 100px;
+    margin: 5% auto;
+    /* debug */
+    background-color: orange;
+    border:1px solid black;
+}
+
+#email-input {
+    display: block;
+    margin: 2% auto;
+    width: 50%;
+    min-height: 25px;
+}
+
+#check-email {
+    display: block;
+    margin: 2% auto;
+    width: 50%;
+    min-height: 50px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#esito-mail {
+    width: 50%;
+    min-height: 100px;
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    /* debug */
+    background-color: yellow;
+    border: black 1px solid;
+}
+
+
