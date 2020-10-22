@@ -9,10 +9,12 @@ lanciaDado.addEventListener('click' ,
     function() {
         //numero random utente
         var randomNumberUser = parseInt((Math.floor(Math.random() * 6) + 1));
+        document.getElementById('risultato-user').innerHTML = "Il tuo numero è : " + randomNumberUser;
         console.log("Il tuo numero è:", randomNumberUser);
 
         //numero random pc
         var randomNumberPc = parseInt((Math.floor(Math.random() * 6) + 1));
+        document.getElementById('risultato-pc').innerHTML = "Il tuo numero è : " + randomNumberPc;
         console.log("Il numero del computer è:", randomNumberPc);
 
         //confronto numeri e decreto vincitore
